@@ -13,6 +13,7 @@ const errorMiddleware = require('./middleware/errorMiddleware');
 const app = express();
 
 // Middleware--
+console.log("MongoDB connceted successfully");
 app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
