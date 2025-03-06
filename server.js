@@ -12,7 +12,7 @@ const errorMiddleware = require('./middleware/errorMiddleware');
 
 const app = express();
 
-// Middleware
+// Middleware--
 app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
